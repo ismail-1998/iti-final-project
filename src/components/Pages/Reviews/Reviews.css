@@ -1,0 +1,65 @@
+@import url('../../../assets/css/globals.css');
+
+
+/* Start Reviews */
+.reviews {
+  padding: 50px 0;
+  position: relative;
+}
+.reviews > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  z-index: -1;
+}
+.reviews .profile-box {
+  width: 50%;
+  float: left;
+  margin-bottom: 15px;
+}
+.reviews .profile-box .profile-img {
+  float: left;
+}
+.reviews .profile-box .profile-img img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.reviews .profile-box .profile-text {
+  float: left;
+  width: 385px;
+  padding: 0 0 0 10px;
+}
+.reviews .profile-box .profile-text .name {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.reviews .profile-box .profile-text span {
+  font-size: 14px;
+  font-family: var(--montserratFont);
+  display: block;
+}
+.reviews .profile-box .profile-text span.underline {
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  margin: 5px 0 0 0;
+  background-color: var(--primaryColor);
+  border-radius: 1.5px;
+}
+
+.clear-fix {
+  clear: both;
+}
+@media screen and (max-width: 990px) {
+  .reviews .profile-box {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+/* End Reviews */

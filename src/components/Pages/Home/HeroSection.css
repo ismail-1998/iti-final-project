@@ -1,0 +1,51 @@
+@import url("../../../assets/css/globals.css");
+
+.home {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--primaryColor),
+    var(--secondaryColor)
+  );
+  height: calc(100vh - 56px);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.welcome-text {
+  position: absolute;
+  max-width: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.welcome-text h1 {
+  color: #fff;
+  font-size: 100px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: var(--kaushanFont);
+}
+
+.welcome-text span {
+  display: block;
+  margin: auto;
+  background-color: white;
+  width: 100px;
+  height: 3px;
+}
+.welcome-text a {
+  border: 1px solid #fff;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 20px;
+  display: inline-block;
+  color: #fff;
+}
+
+.welcome-text a:hover {
+  background-color: white;
+  color: var(--primaryColor);
+}

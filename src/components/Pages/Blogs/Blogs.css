@@ -1,0 +1,14 @@
+@import url("../../../assets/css/globals.css");
+
+/* Start Blogs */
+.blogs {
+  padding: 70px 0;
+}
+.blogs-content {
+  margin-top: 50px;
+}
+
+.blog-item:hover {
+  cursor: pointer;
+}
+/* End Blogs */

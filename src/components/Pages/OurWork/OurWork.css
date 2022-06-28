@@ -1,0 +1,40 @@
+@import url('../../../assets/css/globals.css');
+
+
+/* Start Our Work */
+.our-work {
+  padding: 50px 0 0 0;
+}
+.our-work .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.our-work .gallery .column {
+  flex: 25%;
+  max-width: 25%;
+}
+.our-work .gallery .column img {
+  width: 100%;
+}
+.our-work .gallery .box {
+  position: relative;
+}
+.our-work .gallery .box:hover .overlay {
+  visibility: visible;
+}
+
+@media screen and (max-width: 800px) {
+  .our-work .gallery .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .our-work .gallery .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/* End Our Work */

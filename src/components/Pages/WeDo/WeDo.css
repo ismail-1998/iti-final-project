@@ -1,0 +1,53 @@
+@import url('../../../assets/css/globals.css');
+
+
+/* Start We Do */
+.we-do {
+  padding: 50px 0;
+}
+.we-do-content {
+  margin-top: 40px;
+}
+.we-do .accordion {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  border-top: 1px solid var(--grayColor);
+  border-bottom: 1px solid var(--grayColor);
+  margin-bottom: 15px;
+  padding: 12px 0;
+}
+.we-do .accordion::after {
+  content: '+';
+  font-size: 25px;
+  color: #000;
+  float: right;
+  margin-right: 10px;
+}
+.we-do .active::after {
+  content: '-';
+}
+.we-do .accordion i {
+  font-size: 30px;
+  color: var(--PantoneColor);
+}
+.we-do .accordion p {
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 0 0 0 15px;
+}
+.we-do .active,
+.we-do .accordion:hover {
+  background-color: rgb(243, 243, 243);
+}
+.we-do .panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+/* End We Do */

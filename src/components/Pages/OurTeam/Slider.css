@@ -1,0 +1,45 @@
+@import url('../../../assets/css/globals.css');
+
+/* Start Slider */
+.slider {
+  padding: 30px 0;
+}
+.slider .carousel-item {
+    padding: 10px 200px;
+}
+.slider .desc {
+  padding: 20px;
+}
+.slider .desc q {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--grayColor);
+  font-weight: 300;
+  font-style: italic;
+  font-family: var(--montserratFont);
+  margin-bottom: 25px;
+}
+.slider .desc p span.underline {
+  display: inline-block;
+  width: 70px;
+  height: 3.5px;
+  background-color: var(--primaryColor);
+  border-radius: 1.5px;
+}
+.slider .desc p {
+  font-size: 22px;
+  font-family: var(--kaushanFont);
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.carousel-caption {
+  position: static;
+  text-align: left;
+}
+.carousel-indicators {
+  display: none;
+}
+
+/* End Slider */

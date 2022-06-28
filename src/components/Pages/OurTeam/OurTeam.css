@@ -1,0 +1,58 @@
+@import url("../../../assets/css/globals.css");
+
+/* Start Our-Team */
+.our-team {
+  padding: 50px 0 0 0;
+}
+
+.members {
+  margin: 50px 0;
+}
+
+.members .overlay ul li {
+  margin-bottom: 20px;
+}
+
+.members .overlay ul li i {
+  font-size: 30px;
+}
+
+.members .overlay ul li:hover i {
+  color: var(--primaryColor);
+}
+
+.member-img {
+  position: relative;
+}
+
+.member-img:hover .overlay {
+  visibility: visible;
+}
+
+.member-name {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px 0 5px 0;
+  font-family: var(--montserratFont);
+}
+
+.member-job {
+  text-align: center;
+  color: var(--grayColor);
+}
+
+.list-icons {
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.list-icons .icon {
+  margin: 40px;
+  font-size: 90px;
+}
+
+.list-icons .icon:hover {
+  color: var(--PantoneColor);
+  transform: scale(1.5);
+}
+/* End Our-Team */
